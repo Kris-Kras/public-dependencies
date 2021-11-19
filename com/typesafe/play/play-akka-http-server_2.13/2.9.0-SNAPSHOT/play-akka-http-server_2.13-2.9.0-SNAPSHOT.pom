@@ -76,7 +76,7 @@
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-http-core_2.13</artifactId>
-            <version>10.1.14</version>
+            <version>10.2.7</version>
         </dependency>
     </dependencies>
 </project>
