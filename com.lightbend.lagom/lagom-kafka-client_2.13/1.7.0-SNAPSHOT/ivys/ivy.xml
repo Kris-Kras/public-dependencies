@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-  <info organisation="com.lightbend.lagom" module="lagom-kafka-client_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119104243">
+  <info organisation="com.lightbend.lagom" module="lagom-kafka-client_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119120041">
     <description homepage="https://www.lagomframework.com/">lagom-kafka-client</description>
   </info>
   <configurations>
@@ -46,7 +46,7 @@
       <exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
     </dependency>
     <dependency org="com.typesafe" name="ssl-config-core_2.13" rev="0.4.3" conf="compile->default(compile)"> </dependency>
-    <dependency org="org.apache.kafka" name="kafka-clients" rev="2.4.1" conf="compile->default(compile)"> </dependency>
+    <dependency org="org.apache.kafka" name="kafka-clients" rev="2.7.0" conf="compile->default(compile)"> </dependency>
     <dependency org="org.scala-lang.modules" name="scala-collection-compat_2.13" rev="2.4.1" conf="compile->default(compile)"> </dependency>
   </dependencies>
 </ivy-module>

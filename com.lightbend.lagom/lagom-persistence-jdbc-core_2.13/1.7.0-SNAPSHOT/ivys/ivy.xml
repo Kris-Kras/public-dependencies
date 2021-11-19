@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-  <info organisation="com.lightbend.lagom" module="lagom-persistence-jdbc-core_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119104246">
+  <info organisation="com.lightbend.lagom" module="lagom-persistence-jdbc-core_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119120042">
     <description homepage="https://www.lagomframework.com/">lagom-persistence-jdbc-core</description>
   </info>
   <configurations>
@@ -38,7 +38,7 @@
     <dependency org="org.scala-lang" name="scala-library" rev="2.13.7" conf="compile->default(compile)"> </dependency>
     <dependency org="com.typesafe.genjavadoc" name="genjavadoc-plugin_2.13.7" rev="0.18" conf="genjavadocplugin->default(compile)"> </dependency>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.7.31" conf="compile->default(compile)"> </dependency>
-    <dependency org="com.github.dnvriend" name="akka-persistence-jdbc_2.13" rev="3.5.3" conf="compile->default(compile)">
+    <dependency org="com.lightbend.akka" name="akka-persistence-jdbc_2.13" rev="4.0.0" conf="compile->default(compile)">
       <exclude org="org.slf4j" module="jcl-over-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
       <exclude org="org.slf4j" module="jul-to-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
       <exclude org="org.slf4j" module="log4j-over-slf4j" name="*" type="*" ext="*" conf="" matcher="exact"/>

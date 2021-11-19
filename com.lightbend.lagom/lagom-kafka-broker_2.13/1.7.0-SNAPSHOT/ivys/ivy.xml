@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-  <info organisation="com.lightbend.lagom" module="lagom-kafka-broker_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119104246">
+  <info organisation="com.lightbend.lagom" module="lagom-kafka-broker_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119120042">
     <description homepage="https://www.lagomframework.com/">lagom-kafka-broker</description>
   </info>
   <configurations>
@@ -38,7 +38,7 @@
     <dependency org="com.lightbend.lagom" name="lagom-kafka-client_2.13" rev="1.7.0-SNAPSHOT" conf="compile->default(compile)"> </dependency>
     <dependency org="org.scala-lang" name="scala-library" rev="2.13.7" conf="compile->default(compile)"> </dependency>
     <dependency org="com.typesafe.genjavadoc" name="genjavadoc-plugin_2.13.7" rev="0.18" conf="genjavadocplugin->default(compile)"> </dependency>
-    <dependency org="org.apache.kafka" name="kafka-clients" rev="2.4.1" conf="compile->default(compile)"> </dependency>
+    <dependency org="org.apache.kafka" name="kafka-clients" rev="2.7.0" conf="compile->default(compile)"> </dependency>
     <dependency org="com.github.jnr" name="jnr-constants" rev="0.9.15" conf="compile->default(compile)"> </dependency>
     <dependency org="org.pcollections" name="pcollections" rev="3.1.4" conf="compile->default(compile)"> </dependency>
     <dependency org="org.scala-lang.modules" name="scala-collection-compat_2.13" rev="2.4.1" conf="compile->default(compile)"> </dependency>

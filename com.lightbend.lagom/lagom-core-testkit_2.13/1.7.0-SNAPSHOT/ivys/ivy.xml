@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-  <info organisation="com.lightbend.lagom" module="lagom-core-testkit_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119104243">
+  <info organisation="com.lightbend.lagom" module="lagom-core-testkit_2.13" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119120041">
     <description homepage="https://www.lagomframework.com/">lagom-core-testkit</description>
   </info>
   <configurations>

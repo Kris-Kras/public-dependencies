@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-  <info organisation="com.lightbend.lagom" module="maven-archetype-lagom-java" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119104241">
+  <info organisation="com.lightbend.lagom" module="maven-archetype-lagom-java" revision="1.7.0-SNAPSHOT" status="integration" publication="20211119120041">
     <description homepage="https://www.lagomframework.com/">maven-archetype-lagom-java</description>
   </info>
   <configurations>
