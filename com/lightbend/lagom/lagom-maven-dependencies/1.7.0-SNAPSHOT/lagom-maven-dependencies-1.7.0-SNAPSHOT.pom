@@ -230,7 +230,7 @@
             <dependency>
                 <groupId>com.lightbend.akka</groupId>
                 <artifactId>akka-persistence-jdbc_2.13</artifactId>
-                <version>4.0.0</version>
+                <version>5.0.4</version>
             </dependency>
             <dependency>
                 <groupId>com.github.jnr</groupId>
